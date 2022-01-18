@@ -1,16 +1,16 @@
 // Clase 3 ciclos e iteraciones
 
-let edadMirtha= "";
+alert('Bienvenido!!');
 
+let edadMirtha= '';
+let rta = prompt('¿Querés jugar un juego? Responde si o no');
 
-while (edadMirtha != 94){
-    edadMirtha = prompt('¿Cuántos años tiene Mirtha Legrand?');
+if (rta == 'si') {
+    alert('okei sigamos :)');
+    while (edadMirtha != 94){
+        edadMirtha = prompt('¿Cuántos años tiene Mirtha Legrand?');
+    }
+    alert('Sabes que sí')
+} else {
+    alert('buu :(')
 }
-
-
-
-//Visto en clase de Funciones
-function saludar () {
-    console.log("Hola como estas?")
-};
-
